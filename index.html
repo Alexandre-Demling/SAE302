@@ -6,30 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <!-- HEADER -->
-<header class="site-header">
-    <div class="top-bar">
-        <ul>
-            <li>Facultés (UFR)</li>
-            <li>Instituts & écoles</li>
-            <li>Unités de recherche</li>
-            <li>Bibliothèques</li>
-            <li>L’ACTU</li>
-            <li>ENT</li>
-            <li class="active">International</li>
-        </ul>
-    </div>
-
-    <div class="main-bar">
+<header class="header">
+    <div class="header-inner">
         <div class="logo">
-            <strong>Université Marie & Louis Pasteur</strong><br>
+            Université Marie & Louis Pasteur<br>
             <span>IUT Nord Franche-Comté</span>
         </div>
-        <nav>
+        <nav class="nav">
             <a href="#">Formation</a>
-            <a href="#" class="current">International</a>
+            <a href="#" class="active">International</a>
             <a href="#">Recherche</a>
             <a href="#">Vie de campus</a>
         </nav>
@@ -38,188 +27,117 @@
 
 <!-- HERO -->
 <section class="hero">
-    <div class="hero-content">
-        <h1>Vivre l’international</h1>
+    <h1>Vivre l’international</h1>
+    <p>
+        Mobilités étudiantes, recherche et projets internationaux font partie intégrante
+        de l’expérience proposée à l’IUT Nord Franche-Comté.
+    </p>
+</section>
+
+<!-- 1 : PRESENTATION INTERNATIONAL -->
+<section class="section">
+    <h2>Une université ouverte sur le monde</h2>
+    <p>
+        À l’Université Marie et Louis Pasteur, l’internationalisation repose sur des
+        partenariats académiques, des projets de recherche et des dispositifs de mobilité
+        accessibles aux étudiants. Étudier, chercher ou collaborer à l’étranger permet
+        de développer des compétences académiques, professionnelles et humaines.
+    </p>
+</section>
+
+<!-- 2 & 3 : MAGAZINE -->
+<section class="section light">
+    <h2>Le magazine international UMLP</h2>
+
+    <div class="grid-2">
+        <!-- 2 -->
+        <div>
+            <img src="images/cover-magazine.png" alt="Couverture magazine UMLP">
+            <p class="caption">
+                Couverture du magazine international mettant en avant la recherche,
+                la mobilité et les expériences vécues à l’étranger.
+            </p>
+        </div>
+
+        <!-- 3 -->
+        <div>
+            <img src="images/double-page.png" alt="Double page magazine UMLP">
+            <p class="caption">
+                Double page éditoriale : interview, témoignages et dispositifs de
+                mobilité internationale proposés aux étudiants.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- 4 : WEBTV -->
+<section class="section">
+    <h2>WebTV – Le campus à l’international</h2>
+
+    <div class="grid-2">
+        <a class="video-card" href="https://www.youtube.com/watch?v=dg0efG7Idg8" target="_blank">
+            <img src="images/youtube-interview.png" alt="Interview WebTV">
+            <span class="overlay">Voir l’interview</span>
+        </a>
+
         <p>
-            Mobilité étudiante, recherche et projets internationaux : l’IUT Nord Franche-Comté
-            accompagne les étudiants et les enseignants-chercheurs dans des parcours ouverts
-            sur le monde.
-        </p>
-        <div class="hero-buttons">
-            <a href="#" class="btn-primary">Découvrir les dispositifs</a>
-            <a href="#" class="btn-secondary">Voir l’émission WebTV</a>
-        </div>
-    </div>
-    <div class="hero-image"></div>
-</section>
-
-<!-- INTRO -->
-<section class="section">
-    <div class="container">
-        <p class="intro">
-            Cette page est un espace éditorial dédié à l’international au sein de l’IUT Nord
-            Franche-Comté. Elle complète la page institutionnelle de l’UMLP en proposant
-            une approche plus incarnée, basée sur des témoignages, des projets concrets
-            et des parcours réels.
+            Cette émission WebTV donne la parole à un enseignant-chercheur et à des étudiants
+            ayant vécu une expérience internationale. Elle met en lumière le rôle de la
+            recherche et des collaborations internationales dans les parcours académiques
+            et professionnels.
         </p>
     </div>
 </section>
 
-<!-- MOBILITE -->
+<!-- 5 6 7 : RESEAUX SOCIAUX -->
 <section class="section light">
-    <div class="container">
-        <h2>La mobilité internationale à l’IUT</h2>
+    <h2>Publications sur les réseaux sociaux</h2>
 
-        <details>
-            <summary>🌍 Partir à l’étranger pendant ses études</summary>
+    <div class="grid-3">
+        <!-- 5 -->
+        <div class="post">
+            <img src="images/post-instagram.png" alt="Post Instagram">
             <p>
-                Les étudiants de l’IUT Nord Franche-Comté peuvent effectuer un semestre
-                d’études ou un stage à l’étranger dans le cadre de programmes d’échanges
-                internationaux, notamment ERASMUS+.
-            </p>
-            <p>
-                Ces mobilités permettent de découvrir d’autres méthodes de travail,
-                d’améliorer ses compétences linguistiques et de développer une véritable
-                ouverture culturelle.
-            </p>
-        </details>
-
-        <details>
-            <summary>🎓 Accueil d’étudiants internationaux</summary>
-            <p>
-                L’IUT accueille chaque année des étudiants étrangers venant suivre
-                une formation ou un semestre d’études en France.
-            </p>
-            <p>
-                Un accompagnement pédagogique et administratif est proposé afin
-                de faciliter leur intégration académique et culturelle.
-            </p>
-        </details>
-
-        <details>
-            <summary>🤝 Programmes européens et partenariats</summary>
-            <p>
-                L’université développe de nombreux partenariats avec des établissements
-                européens et internationaux, favorisant les échanges académiques,
-                scientifiques et culturels.
-            </p>
-        </details>
-    </div>
-</section>
-
-<!-- RECHERCHE -->
-<section class="section">
-    <div class="container grid-2">
-        <div>
-            <h2>La recherche comme levier d’ouverture internationale</h2>
-            <p>
-                À l’Université Marie et Louis Pasteur, la recherche est un moteur essentiel
-                de l’internationalisation. Les enseignants-chercheurs participent à des
-                collaborations scientifiques, publient dans des revues internationales
-                et interviennent dans des colloques à l’étranger.
-            </p>
-            <p>
-                Ces échanges nourrissent directement les enseignements et permettent
-                aux étudiants de bénéficier de contenus à la pointe de la recherche.
+                Publication Instagram visant à susciter l’intérêt des étudiants pour
+                l’internationalisation et la mobilité.
             </p>
         </div>
-        <div class="image-placeholder"></div>
-    </div>
-</section>
 
-<!-- TEMOIGNAGES -->
-<section class="section light">
-    <div class="container">
-        <h2>Témoignages et expériences vécues</h2>
-
-        <div class="grid-3">
-            <div class="card">
-                <div class="image-placeholder small"></div>
-                <p>
-                    « La recherche internationale permet d’intégrer des pratiques
-                    scientifiques actuelles dans les enseignements. »
-                </p>
-                <span>Enseignant-chercheur</span>
-            </div>
-
-            <div class="card">
-                <div class="image-placeholder small"></div>
-                <p>
-                    « Partir à l’étranger m’a aidé à gagner en autonomie et à mieux
-                    définir mon projet professionnel. »
-                </p>
-                <span>Étudiant en mobilité</span>
-            </div>
-
-            <div class="card">
-                <div class="image-placeholder small"></div>
-                <p>
-                    “Studying abroad helped me grow both professionally and personally.”
-                </p>
-                <span>Former student</span>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CLA -->
-<section class="section">
-    <div class="container grid-2">
-        <div class="image-placeholder"></div>
-        <div>
-            <h2>Francophonie et Centre de Linguistique Appliquée</h2>
+        <!-- 6 -->
+        <div class="post">
+            <img src="images/post-story.png" alt="Story Instagram">
             <p>
-                Le Centre de Linguistique Appliquée (CLA) est reconnu à l’international
-                pour son expertise dans l’enseignement du français langue étrangère (FLE).
-            </p>
-            <p>
-                Il accueille des étudiants du monde entier et contribue au rayonnement
-                de la francophonie à travers des formations, des certifications et des
-                partenariats internationaux.
+                Story Instagram relayant la page web et incitant à découvrir les
+                opportunités internationales proposées par l’UMLP.
             </p>
         </div>
-    </div>
-</section>
 
-<!-- WEBTV -->
-<section class="section light">
-    <div class="container grid-2">
-        <div>
-            <h2>WebTV – Le campus à l’international</h2>
+        <!-- 7 -->
+        <div class="post">
+            <img src="images/post-facebook.png" alt="Post Facebook">
             <p>
-                Une émission WebTV a été réalisée afin de donner la parole à un
-                enseignant-chercheur et à des étudiants ayant vécu une expérience
-                internationale.
+                Publication Facebook et LinkedIn à vocation institutionnelle,
+                renforçant la visibilité des contenus auprès d’un public élargi.
             </p>
-            <p>
-                L’objectif est de montrer concrètement comment l’international s’intègre
-                dans les parcours académiques et professionnels.
-            </p>
-            <a href="#" class="btn-secondary">Accéder au replay</a>
         </div>
-        <div class="image-placeholder"></div>
     </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="site-footer">
-    <div class="footer-container">
+<footer class="footer">
+    <div class="footer-inner">
         <div>
             <h4>Infos légales</h4>
-            <ul>
-                <li>Mentions légales</li>
-                <li>Cookies</li>
-                <li>Données personnelles</li>
-            </ul>
+            <a href="#">Mentions légales</a>
+            <a href="#">Données personnelles</a>
+            <a href="#">Cookies</a>
         </div>
 
         <div>
             <h4>Liens pratiques</h4>
-            <ul>
-                <li>ENT</li>
-                <li>Bibliothèques</li>
-                <li>Paiement en ligne</li>
-            </ul>
+            <a href="#">ENT</a>
+            <a href="#">Bibliothèques</a>
+            <a href="#">Paiement en ligne</a>
         </div>
 
         <div class="footer-brand">
